@@ -5,15 +5,17 @@ import img from "../assets/logo.png"
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
-                <div className="container-fluid px-4">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm py-3">
+                <div className="container-fluid px-4 d-flex flex-row justify-content-lg-between justify-content-md-between justify-content-center gap-lg-5 gap-md-5 gap-0 ">
 
-                    <a className="navbar-brand d-flex align-items-center" href="#">
-                        <img src={img} alt="logo" className="nav-logo" />
-                    </a>
-                        
-                    <div className="collapse navbar-collapse border border-1 rounded-4 gap-2 shadow-sm"style={{maxWidth:"600px",height:"50px"}} id="navbarSupportedContent">
-                        <div className="dropdown"style={{width:"160px"}}>
+                    <div>
+                        <a className="navbar-brand d-flex align-items-center" href="#">
+                            <img src={img} alt="logo" className="nav-logo" />
+                        </a>
+                    </div>
+
+                    <div className="collapse navbar-collapse border border-1 rounded-4 gap-2 shadow-sm" style={{ height: "50px" }} id="navbarSupportedContent">
+                        <div className="dropdown" style={{ width: "160px" }}>
                             <button className="btn w-100 dropdown-toggle" id='cl' type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 All Categories
                             </button>
@@ -25,26 +27,28 @@ const Navbar = () => {
                         </div>
 
                         <form className="flex-grow-1" role="search">
-                            <input className="form-control border-0" style={{backgroundColor:"#f7f7f7"}} type="search" placeholder="Search for more than 20,000 products" aria-label="Search" />
+                            <input className="form-control border-0" style={{ backgroundColor: "#f7f7f7" }} type="search" placeholder="Search for more than 20,000 products" aria-label="Search" />
                         </form>
+                        <i className="fa-solid fa-magnifying-glass ms-3 fs-5 me-2"></i>
                     </div>
 
                     <div className='d-flex align-items-center gap-4 ms-lg-auto mt-3 mt-lg-0'>
-
                         <div className='text-end d-none d-lg-block'>
-                            <p id='cl'>For Support?</p>
-                            <h5 className='fw-semibold'>+980-34984089</h5>
+                            <p id='cl' className='mb-1'>For Support?</p>
+                            <h5 className='fw-semibold mb-0'>+980-34984089</h5>
                         </div>
 
                         <div className='d-flex gap-3 fs-5'>
                             <i className="fa-regular fa-user"></i>
                             <i className="fa-regular fa-heart"></i>
+                            <i className="fa-solid fa-magnifying-glass d-lg-none d-md-block d-block"></i>
+                            <i className="fa-solid fa-cart-shopping d-lg-none d-md-block d-block"></i>
                         </div>
                     </div>
 
                 </div>
             </nav>
-        </div>
+        </div >
     );
 }
 
