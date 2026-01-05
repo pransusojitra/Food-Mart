@@ -1,0 +1,17 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.new {
+  height: 130px;
+  width: 340px !important;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

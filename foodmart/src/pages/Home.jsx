@@ -1,6 +1,8 @@
 import React from 'react';
 import Navslider from '../Component/Navslider';
 import Categoryslider from '../Component/Categoryslider';
+import Newlyslid from '../Component/Newlyslid';
+import Product from '../Component/Product';
 
 const Home = () => {
     return (
@@ -47,6 +49,12 @@ const Home = () => {
 
             <div>
                 <Categoryslider />
+            </div>
+            <div>
+                <Newlyslid />
+            </div>
+            <div>
+                <Product />
             </div>
         </div>
     );
