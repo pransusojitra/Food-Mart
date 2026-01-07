@@ -3,6 +3,7 @@ import Navslider from '../Component/Navslider';
 import Categoryslider from '../Component/Categoryslider';
 import Newlyslid from '../Component/Newlyslid';
 import Product from '../Component/Product';
+import Bestproduct from "../Component/Bestproduct";
 
 const Home = () => {
     return (
@@ -12,34 +13,34 @@ const Home = () => {
                 <Navslider />
             </div>
             <div className='mt-2 d-lg-block d-md-none d-none'>
-                <nav class="navbar navbar-expand-lg bg-white">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                <nav className="navbar navbar-expand-lg bg-white">
+                    <div className="container-fluid">
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-4 gap-4">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Women</a>
+                        <div className="collapse navbar-collapse" id="navbarNav">
+                            <ul className="navbar-nav ms-4 gap-4">
+                                <li className="nav-item">
+                                    <a className="nav-link" aria-current="page" href="#">Women</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Men</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Men</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Kids</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Kids</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-disabled="true">Accessories</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" aria-disabled="true">Accessories</a>
                                 </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Brand</a>
+
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Brand</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Sale</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Sale</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Blog</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,6 +56,9 @@ const Home = () => {
             </div>
             <div>
                 <Product />
+            </div>
+            <div>
+                <Bestproduct />
             </div>
         </div>
     );
