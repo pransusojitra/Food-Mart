@@ -1,0 +1,24 @@
+.image-box {
+    background-color: #e6f3fa;
+}
+
+.product-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media (max-width: 768px) {
+    .product-img {
+        max-width: 260px;
+        margin-bottom: 20px;
+    }
+
+  .offer-card {
+    background-position: center bottom;
+    background-size: 180px;
+    padding-bottom: 120px;
+  }
+}

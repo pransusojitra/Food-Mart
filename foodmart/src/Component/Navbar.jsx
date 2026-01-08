@@ -14,7 +14,7 @@ const Navbar = () => {
                         </a>
                     </div>
 
-                    <div className="collapse navbar-collapse border border-1 rounded-4 gap-2 shadow-sm" style={{ height: "50px" }} id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse border border-1 rounded-4 gap-2 shadow-sm" style={{ height: "50px" }}>
                         <div className="dropdown" style={{ width: "160px" }}>
                             <button className="btn w-100 dropdown-toggle" id='cl' type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 All Categories

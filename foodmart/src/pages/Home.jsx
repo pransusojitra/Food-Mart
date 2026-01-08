@@ -1,8 +1,9 @@
-import React from 'react';
-import Navslider from '../Component/Navslider';
-import Categoryslider from '../Component/Categoryslider';
-import Newlyslid from '../Component/Newlyslid';
-import Product from '../Component/Product';
+import React from "react";
+import Navslider from "../Component/Navslider";
+import Photoslid from "../Component/Photoslid";
+import Categoryslider from "../Component/Categoryslider";
+import Newlyslid from "../Component/Newlyslid";
+import Product from "../Component/Product";
 import Bestproduct from "../Component/Bestproduct";
 
 const Home = () => {
@@ -48,18 +49,11 @@ const Home = () => {
                 </nav>
             </div>
 
-            <div>
-                <Categoryslider />
-            </div>
-            <div>
-                <Newlyslid />
-            </div>
-            <div>
-                <Product />
-            </div>
-            <div>
-                <Bestproduct />
-            </div>
+            <Photoslid />
+            <Categoryslider />
+            <Newlyslid />
+            <Product />
+            <Bestproduct />
         </div>
     );
 }
