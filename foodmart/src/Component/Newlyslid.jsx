@@ -46,7 +46,8 @@ const Navslider = () => {
                     },
                 }}
                 modules={[Pagination]}
-                className="mySwiper px-3"
+                className="mySwiper px-3 pt-3"
+                style={{height:"160px"}}
             >
                 {category.map((item, index) => (
                     <SwiperSlide key={index} className='new rounded-4'>
