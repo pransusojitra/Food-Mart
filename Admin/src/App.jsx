@@ -1,14 +1,19 @@
-import React from 'react';
-import Navbar1 from './pages/Navbar1';
-import ProductForm from './pages/Productform';
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar1 from "./pages/Navbar1";
+import ProductForm from "./pages/ProductForm";
+import AdminProducts from './AdminProducts';
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar1 />
-      <ProductForm />
-    </div>
+
+      <Routes>
+        <Route path="/" element={<ProductForm />} />
+        <Route path="/view" element={<AdminProducts />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
