@@ -5,6 +5,7 @@ import Categoryslider from "../Component/Categoryslider";
 import Newlyslid from "../Component/Newlyslid";
 import Product from "../Component/Product";
 import Bestproduct from "../Component/Bestproduct";
+import Blog from "../Component/Blog";
 
 const Home = () => {
     return (
@@ -54,6 +55,7 @@ const Home = () => {
             <Newlyslid />
             <Product />
             <Bestproduct />
+            <Blog />
         </div>
     );
 }
