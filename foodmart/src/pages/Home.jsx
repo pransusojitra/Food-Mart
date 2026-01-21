@@ -6,6 +6,7 @@ import Newlyslid from "../Component/Newlyslid";
 import Product from "../Component/Product";
 import Bestproduct from "../Component/Bestproduct";
 import Blog from "../Component/Blog";
+import Discount from "../Component/Discount";
 
 const Home = () => {
     return (
@@ -56,6 +57,7 @@ const Home = () => {
             <Product />
             <Bestproduct />
             <Blog />
+            <Discount />
         </div>
     );
 }
