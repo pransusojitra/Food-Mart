@@ -2,12 +2,12 @@ import React from 'react';
 import './Discount.css'
 
 const Discount = () => {
-    return (
+    return ( 
         <div className='p-3'>
-            <div className='dst rounded-5 p-5' style={{ backgroundColor: "#e6f2fa" }}>
+            <div className='dst rounded-5 p-lg-5 p-md-4 p-3' style={{ backgroundColor: "#e6f2fa" }}>
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12 mb-5 mb-lg-0 d-flex justify-content-center">
-                        <div className='d-flex flex-column justify-content-center text-start px-3' style={{ height: "35rem", maxWidth: "600px" }}>
+                        <div className='d-flex flex-column justify-content-center text-start px-3' style={{maxWidth: "600px" }}>
                             <h1 className='fw-bold mb-4' style={{ fontSize: "3.8rem", lineHeight: "1.2" }} >Get <span style={{ color: "#ffc640" }}>25% Discount</span> on your first purchase</h1>
                             <p className='fs-6 text-muted' style={{ lineHeight: "1.8" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst amet, metus, sit massa posuere maecenas. At tellus ut nunc amet vel egestas</p>
                         </div>
@@ -35,7 +35,7 @@ const Discount = () => {
                             </form>
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
         </div>

@@ -7,6 +7,7 @@ import Product from "../Component/Product";
 import Bestproduct from "../Component/Bestproduct";
 import Blog from "../Component/Blog";
 import Discount from "../Component/Discount";
+import Phonepg from "../Component/Phonepg";
 
 const Home = () => {
     return (
@@ -58,6 +59,7 @@ const Home = () => {
             <Bestproduct />
             <Blog />
             <Discount />
+            <Phonepg />
         </div>
     );
 }
