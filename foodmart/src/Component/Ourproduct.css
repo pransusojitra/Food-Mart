@@ -1,0 +1,33 @@
+.tag-btnn {
+    margin: auto;
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.tag-btn {
+    border: none;
+    padding: 10px 16px;
+    background-color: #fff6e6;
+    color: #555;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.tag-btn:hover {
+    background-color: #ffe1b3;
+    transform: translateY(-1px);
+}
+
+.tag-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 180, 70, 0.4);
+}
+
+.tag-btn:active {
+    transform: scale(0.97);
+}

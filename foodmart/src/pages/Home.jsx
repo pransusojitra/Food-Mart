@@ -8,6 +8,8 @@ import Bestproduct from "../Component/Bestproduct";
 import Blog from "../Component/Blog";
 import Discount from "../Component/Discount";
 import Phonepg from "../Component/Phonepg";
+import Ourproduct from "../Component/Ourproduct";
+
 
 const Home = () => {
     return (
@@ -60,6 +62,8 @@ const Home = () => {
             <Blog />
             <Discount />
             <Phonepg />
+            <Ourproduct />
+            
         </div>
     );
 }
